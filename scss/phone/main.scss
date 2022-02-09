@@ -1,0 +1,54 @@
+main{
+    .section{
+        background: url(../img/back.png) no-repeat;
+        background-size: cover;
+        height: calc(100vh - 80px);
+
+        .sub{
+            width: 285px;
+            color: white;
+            margin-left: 3rem;
+            transform: translateY(6rem);
+
+            h1{
+                font-size: 2rem;
+                font-weight: bold;
+                transform: translateY(-2rem);
+            } 
+
+            .sub1{
+                font-size: 1rem;
+            }
+
+            .btn{
+                color: #1b9bff;
+                text-decoration: none;
+                width: 11rem;
+                height: 3rem;
+                border: none;
+                transform: translateY(-0.6rem);
+                font-size: 0.9rem;
+                font-weight: bold;
+                box-shadow: 2px 0px 20px rgb(0, 0, 0);
+                border-radius: 50px;
+            }
+            
+            .btn:hover{
+                background-color: rgb(255, 255, 255);
+                color: #1b9bff;
+                border: solid 2px #1b9bff;
+                font-size: 0.9rem;
+                transition:  .5s;
+            }
+
+            .fle{
+                transform: translateX(0.5rem);
+                box-shadow: 2px 0px 20px rgb(0, 0, 0);
+                border-radius: 50px;
+                color: #fff;
+                margin-top: 45px;
+                font-size: 45px;
+            }
+        }
+    }   
+}
