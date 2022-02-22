@@ -1,8 +1,9 @@
 main{
     .section{
-        background: url(../img/back.png) no-repeat;
+        background: url(../../img/back.png) no-repeat;
         background-size: cover;
-        height: calc(100vh - 80px);
+        background-attachment: fixed;
+        height: calc(80vh - 80px);
 
         .sub{
             width: 285px;
@@ -21,12 +22,12 @@ main{
             }
 
             .btn{
-                color: #1b9bff;
+                color: #0a6bb6;
                 text-decoration: none;
                 width: 11rem;
                 height: 3rem;
                 border: none;
-                transform: translateY(-0.6rem);
+                transform: translateY(3rem);
                 font-size: 0.9rem;
                 font-weight: bold;
                 box-shadow: 2px 0px 20px rgb(0, 0, 0);
@@ -35,20 +36,21 @@ main{
             
             .btn:hover{
                 background-color: rgb(255, 255, 255);
-                color: #1b9bff;
-                border: solid 2px #1b9bff;
+                color: #0a6bb6;
+                border: solid 2px #0a6bb6;
                 font-size: 0.9rem;
                 transition:  .5s;
             }
-
-            .fle{
-                transform: translateX(0.5rem);
-                box-shadow: 2px 0px 20px rgb(0, 0, 0);
-                border-radius: 50px;
-                color: #fff;
-                margin-top: 45px;
-                font-size: 45px;
-            }
         }
-    }   
+    } 
+    .sub2{
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2{
+          font-size: 1.5rem;
+          color: #0a6bb6;
+        }
+      }  
 }
